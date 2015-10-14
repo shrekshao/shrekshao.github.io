@@ -245,10 +245,11 @@ bt {
 /* MY */
 
 .imgbox {
-    float: left;
-    margin-top: 1em;
-    margin-right: 1em;
-    position: relative;
+    
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
 
     -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
     -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
