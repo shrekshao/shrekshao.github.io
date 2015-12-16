@@ -28,6 +28,14 @@
     ================================================== -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	
+	<!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+	
+	
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -62,11 +70,14 @@
 	<div id="ww">
 	    <div class="container">
 			<div class="row">
-				<div class="col-lg-2 col-lg-offset-4 centered">
-					<img class = "avatar_s" src="shrekshao/assets/img/shrekshao.png" alt="shrekshao" >
+				<div class="col-lg-2 col-lg-offset-3 centered">
+					<img class = "avatar_s" width=200px src="shrekshao/assets/img/shrekshao.png" alt="shrekshao" />
 				</div>
 				<div class="col-lg-2 centered">
-					<img class = "avatar_s" src="shrekshao/assets/img/dscxy.jpg" alt="shrekshao" >
+					<img class = "avatar_s" width=200px src="shrekshao/assets/img/di-3d.png" alt="shrekshao" />
+				</div>
+				<div class="col-lg-2 centered">
+					<img class = "avatar_s" width=200px src="shrekshao/assets/img/dscxy.jpg" alt="shrekshao" />
 				</div>
 				</div>
 			</div>
@@ -74,19 +85,65 @@
 			<div class="row">
 				
 				<div class="col-lg-8 col-lg-offset-2 centered">
-					<h1>Shuai Shao</h1>
+					<h1>Shuai (Shrek) Shao</h1>
 					<p>Hello everybody. I'm Shuai Shao. You can call me <b>ShrekShao / 狄学长</b>, 
 					which I use more often as my name in projects.</p>
 					<p>
 						I am a master student majored in Computer Graphics and Game Technology at School of Engineering of University of Pennsylvania 
 						and will be graduating in 2017. 
-						I am always interested in working on a game related projects. 
+						I am interested in games, graphics, and anything related to them. I'm working on the WebGL 2.0 sample pack with the Khronos group at present. 
 					</p>
 
 				</div><!-- /col-lg-8 -->
 			</div><!-- /row -->
 	    </div> <!-- /container -->
 	</div><!-- /ww -->
+	
+	<!-- Header Carousel -->
+	
+	<header id="myCarousel" class="carousel slide">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<div class="fill" style="background-image:url('shrekshao/assets/img/portfolio/modeling/swordsman_unity_big.png')">
+				</div>
+				<div class="carousel-caption">
+					<h2>Hero 108 - Unity3D Game (working on)</h2>
+					<p>blablabla</p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="fill" style="background-image:url('shrekshao/assets/img/portfolio/mechempire/info.png');">
+				</div>
+				<div class="carousel-caption">
+					<h2>MechEmpire</h2>
+				</div>
+			</div>
+			<div class="item">
+				<div class="fill" style="background-image:url('shrekshao/assets/img/portfolio/mechempire_clash/1.png');">
+				</div>
+				<div class="carousel-caption">
+					<h2>MechEmpireClash at PennApps XII</h2>
+				</div>
+			</div>
+		</div>
+
+		<!-- Controls -->
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			<span class="icon-prev"></span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			<span class="icon-next"></span>
+		</a>
+	</header>
+			
 	
 	
 	<!-- +++++ Projects Section +++++ -->
