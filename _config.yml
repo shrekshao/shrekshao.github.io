@@ -28,6 +28,10 @@ disqus_url: "http://shrekshao.github.io"
 # Build settings
 markdown: kramdown
 
+
+#post settings
+excerpt_separator: <!--more-->
+
 # highlight
 # highlighter: pygments
 # highlighter: rouge

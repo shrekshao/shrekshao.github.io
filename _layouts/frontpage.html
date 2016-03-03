@@ -20,7 +20,12 @@ layout: default
       <div class="post-list-body">
         <div class="all-posts" post-cate="All">
           {% for post in site.posts %}
+            {% if post.ex-url %}
+            <a class="post-list-item" href="{{ post.ex-url }}">
+            {% else %}
             <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
+            {% endif %}
+            
               {% if post.img %}
                     <img class="imgbox" src="{{ post.img }}" ></img>
               {% endif %}
@@ -29,6 +34,9 @@ layout: default
                     {{ post.title }}
                     </h2>
                     <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    <p>
+                        {{ post.excerpt }}
+                    </p>
               </div>
             </a>
           {% endfor %}
@@ -39,17 +47,25 @@ layout: default
             {% for posts in category  %}
               {% for post in posts %}
                 {% if post.url %}
-                  <a href="{{ post.url }}" class="post-list-item">
-                    
-                    <h2>
-                    {{ post.title }}
-                    </h2>
-                    {% if post.img %}
-                        <h2>image</h2>
-                        <img src="{{ post.img }}"></img>
+                    {% if post.ex-url %}
+                    <a class="post-list-item" href="{{ post.ex-url }}">
+                    {% else %}
+                    <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
                     {% endif %}
-                    <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
-                  </a>
+                    
+                    {% if post.img %}
+                            <img class="imgbox" src="{{ post.img }}" ></img>
+                    {% endif %}
+                    <div class="text-block">
+                            <h2>
+                            {{ post.title }}
+                            </h2>
+                            <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
+                            <p>
+                                {{ post.excerpt }}
+                            </p>
+                    </div>
+                    </a>
                 {% endif %}
               {% endfor %}
             {% endfor %}

@@ -498,4 +498,6 @@ blockquote:last-child {
 .text-block {
     float: left;
     margin-left: 5%;
+    
+    max-width: 60%;
 }
