@@ -18,7 +18,11 @@ Ray Tracer, Tessellation, MiniGL, IK... Projects from CS 184 Foundations of Comp
 ![](/assets/img/cg/minigl.png){: .center-image }
 
 * Bezier Surface Tessellation
-{% youtube CHx-lvdhorY %}{: .center-image }
+<div class="embed-responsive embed-responsive-16by9">
+<iframe src="https://www.youtube.com/embed/CHx-lvdhorY" frameborder="0" allowfullscreen></iframe>
+</div>
 
 * IK Solver
-{% youtube QrDcxAFJFIk %}{: .center-image }
+<div class="embed-responsive embed-responsive-16by9">
+<iframe src="https://www.youtube.com/embed/QrDcxAFJFIk" frameborder="0" allowfullscreen></iframe>
+</div>

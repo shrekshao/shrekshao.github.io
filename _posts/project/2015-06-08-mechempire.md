@@ -21,7 +21,10 @@ my undergraduates working with these guys.
 * Go to battle online arena now: [Mechempire.cn](http://mechempire.cn)
 * [Github Repo](https://github.com/MechEmpire)
 
-{% youtube IZTmmGgTvjA %}{: .center-image }
+<div class="embed-responsive embed-responsive-16by9">
+<iframe src="https://www.youtube.com/embed/IZTmmGgTvjA" frameborder="0" allowfullscreen></iframe>
+</div>
+<br/>
 
 ![unity](/assets/img/mechempire/unity.jpg){: .center-image }
 
