@@ -5,8 +5,6 @@ categories: Blog
 tag: WebGL-2
 ---
 
-## Multiple FBO Render Order Issues
+I met this problem when writing `glsl_centroid` sample in WebGL2 Samples Pack. 
 
-Test
-
-fbo_centroid
+TODO

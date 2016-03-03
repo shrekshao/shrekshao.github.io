@@ -38,8 +38,10 @@ layout: default
             
               {% if post.img %}
                     <img class="imgbox" src="{{ post.img }}" ></img>
-              {% endif %}
+              <div class="text-block-with-img">
+              {% else %}
               <div class="text-block">
+              {% endif %}
                     <h2>
                     {{ post.title }}
                     </h2>
@@ -65,8 +67,10 @@ layout: default
                     
                     {% if post.img %}
                             <img class="imgbox" src="{{ post.img }}" ></img>
-                    {% endif %}
+                    <div class="text-block-with-img">
+                    {% else %}
                     <div class="text-block">
+                    {% endif %}
                             <h2>
                             {{ post.title }}
                             </h2>
