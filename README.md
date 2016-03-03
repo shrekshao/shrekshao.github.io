@@ -1,8 +1,4 @@
-# ShrekShao Personal Page
+# LiXizhi's Personal Website
 
-http://shrekshao.github.io
+Runing on Github + Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
 
-
-A static personal web page using bootstrap template Stanley.
-
-A project learning html, css, bootstrap, and probably javascript, jQuery ...

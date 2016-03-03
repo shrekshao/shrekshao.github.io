@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-03-02 13:47:43 -0500
-categories: jekyll update
+title:  "hello jekyll!"
+date:   2015-02-10 15:14:54
+categories: jekyll
+comments: true
+img: /old_site/shrekshao/assets/img/portfolio/webgl2.png
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -10,16 +12,18 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+	def print_hi(name)
+	  puts "Hi, #{name}"
+	end
+	print_hi('Tom')
+	#=> prints 'Hi, Tom' to STDOUT.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+
+![test img](/old_site/shrekshao/assets/img/shrekshao.png)
+
+
+[jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[jekyll-help]: https://github.com/jekyll/jekyll-help
