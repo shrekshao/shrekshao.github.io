@@ -152,7 +152,8 @@ nav{
 
 /* shadow */
 .shadow-corner-curl{
-	
+	/*overflow: auto;*/
+    
 	position: relative;
 	background-color:#f8f8fd; 
 	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
@@ -500,4 +501,8 @@ blockquote:last-child {
     margin-left: 5%;
     
     max-width: 60%;
+}
+
+.intro-block {
+    margin: 5%;
 }

@@ -1,25 +1,35 @@
 ---
 layout: default
 ---
+<!--
 <div class="row">
   <div id="myArticle" class="col-sm-9">
     <div class="post-area post">
       <article>
-        {{content}}
+        {{ welcome }}
       </article>
     </div>
   </div>
 </div>
+-->
 <p><br/></p>
 <div id="index" class="row">
   <div class="col-sm-9">
     <div class="post-area ">
 	  <div class="post-list-header">
-	  Posts
+	  {{ page.list-cat }}
 	  </div>
       <div class="post-list-body">
         <div class="all-posts" post-cate="All">
-          {% for post in site.posts %}
+            {% if page.list-cat == "Blog" %}
+            {% assign DisplayCat = site.categories.Blog %}
+            {% elsif page.list-cat == "Project" %}
+            {% assign DisplayCat = site.categories.Project %}
+            {% else %}
+            {% assign DisplayCat = site.posts %}
+            {% endif %}
+          
+          {% for post in DisplayCat %}
             {% if post.ex-url %}
             <a class="post-list-item" href="{{ post.ex-url }}">
             {% else %}
@@ -42,9 +52,9 @@ layout: default
           {% endfor %}
         </div>
         <!-- <div class="posts-in-categories"> -->
-        {% for category in site.categories %}
-          <div post-cate="{{category | first}}">
-            {% for posts in category  %}
+        {% for tag in site.tags %}
+          <div post-cate="{{tag | first}}">
+            {% for posts in tag  %}
               {% for post in posts %}
                 {% if post.url %}
                     {% if post.ex-url %}
@@ -78,15 +88,30 @@ layout: default
   <div class="col-sm-3">
     <div class="shadow-corner-curl hidden-xs">
       <div class="categories-list-header">
-        Categories
+        {{ site.title }}
+      </div>
+      <br/>
+      <img class = "avatar_s" width=100px src="/assets/avatar/shrekshao.png" alt="shrekshao" />
+      <div class="intro-block">
+      {{ content }}
+      <br/>
+      </div>
+      </p>
+    </div>
+    
+    <br/>
+    
+    <div class="shadow-corner-curl hidden-xs">
+      <div class="categories-list-header">
+        Tags
       </div>
       
       <a href="javascript:;" class="categories-list-item" cate="All">
         All<span class="my-badge"> {{site.posts | size}}</span>
       </a>
-      {% for category in site.categories %}
-        <a href="javascript:;" class="categories-list-item" cate="{{ category | first }}">
-          {{ category | first }} <span class="my-badge">{{ category | last | size }}</span>
+      {% for tag in site.tags %}
+        <a href="javascript:;" class="categories-list-item" cate="{{ tag | first }}">
+          {{ tag | first }} <span class="my-badge">{{ tag | last | size }}</span>
         </a>
       {% endfor %}
     </div>

@@ -1,8 +1,16 @@
 ---
-layout: frontpage
+layout: post-list
+list-cat: All-Post
 ---
 
-## Welcome to my website
 
-This is the place where I share my ideas on topics like [Paracraft](http://www.paracraft.cn) software design, artificial intelligence and education. 
-Feel free to send me emails or join our team. 
+Hey! I'm Shuai Shao. Also Known as ShrekShao / 狄学长. 
+
+I am a master student majored in Computer & Information Science at School of Engineering of University of Pennsylvania 
+and will be graduating in Spring 2017. 
+
+* **Programming:** WebGL, Games, Graphics
+* **Sports:** Soccer, Dortmund
+* **Instruments:** Electric Guitar, Clarinet
+
+
