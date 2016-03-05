@@ -8,6 +8,13 @@ permalink: /about/
 * content
 {:toc}
 
+
+![](/assets/avatar/shrekshao.png){: .avatar_s100 }
+![](/assets/avatar/di-3d.png){: .avatar_s100 }
+![](/assets/avatar/dscxy.jpg){: .avatar_s100 }
+
+-----------------------------
+
 ## About the site
 This is a personal blog by Shuai Shao, powered by jekyll. 
 The template is from [here](https://github.com/LiXizhi/lixizhi.github.io) on github. 
