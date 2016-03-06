@@ -1,4 +1,8 @@
-# LiXizhi's Personal Website
+# ShrekShao Personal Page
 
-Runing on Github + Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
+Vist the blog online here: [Link](https://shrekshao.github.io)
+
+This is a personal blog by Shuai Shao, powered by jekyll. The template is by [LiXizhi](https://github.com/LiXizhi/lixizhi.github.io)
+
+
 
