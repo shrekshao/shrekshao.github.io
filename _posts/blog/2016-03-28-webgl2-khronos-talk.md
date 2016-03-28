@@ -15,6 +15,6 @@ It was a great week at GDC.
 <!--more-->
 
 
-![](../../assets/blog-img/webgl2-talk.jpg)
+![](/assets/blog-img/webgl2-talk.jpg)
 
-![](../../assets/blog-img/khronos-alumini.jpg)  
+![](/assets/blog-img/khronos-alumini.jpg)  
