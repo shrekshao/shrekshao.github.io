@@ -2,7 +2,9 @@
 layout: post
 comments: true
 categories: Blog
-tag: WebGL-2 Talk
+tag: 
+- WebGL-2 
+- Talk
 img: /assets/blog-img/webgl2-talk.jpg
 ---
 
