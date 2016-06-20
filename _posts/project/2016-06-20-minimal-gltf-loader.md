@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "WebGL 2 Samples Pack"
+title:  "Minimal glTF Loader"
 categories: Project
 tag: glTF
 comments: true
