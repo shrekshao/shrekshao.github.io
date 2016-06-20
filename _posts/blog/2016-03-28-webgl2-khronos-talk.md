@@ -2,7 +2,8 @@
 layout: post
 comments: true
 categories: Blog
-tag: WebGL-2
+tag: WebGL-2 Talk
+img: /assets/blog-img/webgl2-talk.jpg
 ---
 
 I gave a talk on our WebGL 2 samples pack at Khronos GDC event in San Fransico with Trung. 

@@ -1,5 +1,5 @@
 ---
-layout: Evolution"
+layout: post
 categories: Project
 tag: Game
 comments: true
