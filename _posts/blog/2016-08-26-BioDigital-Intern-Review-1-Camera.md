@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "BioDigital Summer Intern Review 1: Camera tricks: Cylindrical coordinates"
+title:  "BioDigital Summer Intern Review 1 - Camera tricks - Cylindrical coordinates"
 comments: true
 categories: Blog
 tag: WebGL
+img: /assets/blog-img/biodigital/cylindrical-cam-nav.png
 ---
 
 I've literally spent my whole summer vacation at BioDigital for a complete 3-month internship. 
@@ -44,3 +45,8 @@ To make a curved smooth animation,
 all we have to do is linear interpolating the three coordinates values. 
 
 That's pretty neat isn't it. 
+
+Some edge cases do need certain treatment, one of which is when the object is very close to the center axis. 
+To avoid some crazy orbiting from front to back, 
+I use two ways to solve this: either interpolate the result with a linear translation in `Cartesian coordinates`, or get the rotation of the target camera position with current camera position 
+taken into account. 

@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "BioDigital Summer Intern Review 1: Camera tricks: Mouse Orbiting issue"
+title:  "BioDigital Summer Intern Review 2 - Camera tricks - Mouse Orbiting issue"
 comments: true
 categories: Blog
 tag: WebGL
+img: /assets/blog-img/biodigital/camera-eye-lookat-orbit.png
 ---
 
 Continuing our last blog, we are looking at some other issue of camera in WebGL apps with a display stage style scene. 
@@ -25,6 +26,18 @@ We know that the transformation matrix goes like `ProjectMatrix * ViewMatrix * M
 Say we are orbiting the object, then there must be a rotation matrix R in `ModelMatrix`. We are now treating it as part of the ViewMatrix. So the result won't be changed, but we 
 are now transforming only the camera. This is actually using the Associative property of Matrix multiplication. 
 
-We have proved its doable, and the result will be the same as transforming the object. But still, how do we apply the user (say mouse) interaction to the camera transformation?
+We have proved it is doable by only transforming the camera, and the result will be the same as transforming the object. But still, how do we apply the user (say mouse) interaction to the camera transformation?
 
-Again Let's  TODO
+Again Let's use some visual aid: 
+
+![](/assets/blog-img/biodigital/camera-eye-lookat-orbit.png)
+
+So we found out transforming the object is equivalent to transforming the eye-to-look-at vector! 
+
+Before: 
+
+![](/assets/blog-img/biodigital/camera-lookat-old.gif)
+
+After:
+
+![](/assets/blog-img/biodigital/camera-lookat.gif)
