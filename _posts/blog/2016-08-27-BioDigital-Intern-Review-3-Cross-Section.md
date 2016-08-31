@@ -71,13 +71,46 @@ the second pass. Let's focus on the tricky first and third pass.
 This is the most important and most tricky part. 
 What we are actually doing here is using `gl.stencilOp` to modify the stencil Buffer.
 
-Generally speaking, for each backface fragment, we add one to the stencil Value. 
-For each frontface fragment, we subtract one. Thus finally places where is clipped, i.e.
+Generally speaking, for each backface fragment (passing the depth test), we add one to the stencil Value. 
+For each frontface fragment (passing the depth test), we subtract one. Thus finally places where is clipped, i.e.
 where the backfaces are exposing, where be labeled with a greater number.  
 
-TODO 
+There are certain things that needs special attention. Since we are compressing drawing the backfaces 
+and the frontfaces in one pass instead of two, the drawing order of meshes can affect the final 
+stencil value, which is not we want. 
+
+An example: we have a back face and a front face, where the front face is in front of the back face. 
+If we draw the front face first, then when we try to draw the back face, it will fail the depth face, which means 
+it won't affect the stencil value. However, when the drawing order is fliped, 
+both the front face fragment and the back face fragment will change the stencil value, which is wrong. 
+
+There are two solutions, both of them will work perfectly with perfectly modeled geometry (no exposing back face): 
+
+* We change the stencil value both when the fragment fails and passes the depth test
+
+    - Tradeoff: Any exposing backfaces will result in artifacts
+
+    - ![](/assets/blog-img/biodigital/backface-artifact.png)
+
+    - Works well with intersecting geometries 
+
+* We clamps the stencil value to 0-1
+
+    - Get rid of exposing backfaces artifact when they fail the depth test
+
+    - Tradeoff: doesn't work when there are intersecting geometries
+
+    - ![](/assets/blog-img/biodigital/intersecting-geo-artifact.png)
+
+### Third pass
 
 
 
+
+### Improvement
+
+The new method can create a much better clipping cap effect
+    - 
+    - 
 
 ![](/assets/blog-img/biodigital/human-clipping-cap-vs.png)
