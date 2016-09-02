@@ -104,13 +104,33 @@ There are two solutions, both of them will work perfectly with perfectly modeled
 
 ### Third pass
 
+We draw the caps in this stage. 
+
+But what geometry are we going to use for the drawing? 
+We need to use an actual geometry to draw the capping, and that geomtry should 
+perfectly fit into the disclosure formed by all clipping planes. Drawing some random geometry 
+cannot give us a visually correct result. 
+
+This is kind of a limitation. For only the axis-aligned clipping planes can we used a box to fit in. 
+It needs extra work to make arbitrary plane working well. 
+
+We also use `gl.stencilFunc` to set the stencil test functions and only let the fragments where stencil value equals 1 to pass the stencil test and be drawn. 
 
 
 
 ### Improvement
 
 The new method can create a much better clipping cap effect
-    - 
-    - 
+- Multiple clipping planes won't break the illusion any more, as shown in the image below.  
+- We can now apply common shading techniques to the caps. Cuz now they are actual geometry planes. 
+- When WebGL 2 came out, we can even apply 3D texture to the clipping caps so the cross section for different part can have their own color and texture, which is super cool!
+    - I'm working on a 3D texture clipping cap demo in this Github Repo: [clipping-with-caps](https://github.com/shrekshao/clipping-with-caps/tree/3d-texture-webgl-2) 
 
 ![](/assets/blog-img/biodigital/human-clipping-cap-vs.png)
+
+There are also limitations: 
+- We use 3 pass to achieve such a feature! This can impact the performance when we have a lot of draw calls. 
+- This method still cannot work very well with arbitrary clipping planes unless we can create a geometry perfectly fit into the disclosure formed by all clipping planes in real time. 
+See this [SceneJS example](http://scenejs.org/examples/index.html#effects_clipping_caps) to see what is the problem. 
+
+
