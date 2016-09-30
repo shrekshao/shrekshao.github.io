@@ -4,6 +4,7 @@ title:  "WebGL 2 Basics Blog 1 with Eric Haines"
 comments: true
 categories: Blog
 tag: WebGL-2
+ex-url: http://www.realtimerendering.com/blog/webgl-2-basics/
 ---
 
 This is a tehnical blog co-authored with **Eric Haines**, introducing some basics about moving a WebGL 1 program to WebGL 2, posted on Eric's Real-Time Rendering Blog.
