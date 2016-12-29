@@ -1,6 +1,8 @@
 ---
 layout: post-list
 list-cat: All-Post
+title: All
+permalink: /all/
 ---
 
 
