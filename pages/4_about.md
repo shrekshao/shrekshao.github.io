@@ -16,6 +16,9 @@ permalink: /about/
 
 -----------------------------
 
+## This is an illusion, not the reality...
+![](/assets/avatar/ss-illusion.png)
+
 ## About the site
 This is a personal blog by Shuai Shao, powered by jekyll. 
 The template is from [here](https://github.com/LiXizhi/lixizhi.github.io) on github. 
@@ -24,12 +27,12 @@ The template is from [here](https://github.com/LiXizhi/lixizhi.github.io) on git
 * **Current Programming Interest:**
     * WebGL (raw, WebGL 2, three.js, Related utilites development)
     * Game (Unity3D, three.js, ActionScript 3)
-    * Graphics (GPU, Maya plugin)
-    * Web (backend and frontend, learnING...)
+    * Graphics
+    * Web (backend and frontend)
 * **Sports:**
     * Football (Soccer)
     * Position: Side Back / Defending Midfielder
-    * Club: Dortmund. Heja BVB!
+    * Club: Dortmund. 
     * Player: Sokratis Papastathopoulos
 * **Music:**
     * Instruments: Electric Guitar, Clarinet

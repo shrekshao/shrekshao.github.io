@@ -1,7 +1,7 @@
 ---
 layout: post-list
 list-cat: All-Post
-title: ShrekShao
+title: All-Post
 permalink: /all/
 ---
 
