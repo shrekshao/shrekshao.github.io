@@ -2,7 +2,9 @@
 layout: post
 title:  "Drag n Sword U3D Game"
 categories: Project
-tag: Game
+tag: 
+- Unity
+- Game
 comments: true
 img: /assets/img/swordsman_test.png
 ex-url: https://github.com/shrekshao/SwordsmanshipU3D
