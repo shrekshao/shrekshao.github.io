@@ -21,12 +21,24 @@ permalink: /about/
 
 ## About the site
 This is a personal blog by Shuai Shao, powered by jekyll. 
-The template is from [here](https://github.com/LiXizhi/lixizhi.github.io) on github. 
+The template is from [here](https://github.com/LiXizhi/lixizhi.github.io). 
 
 ## About Me
+
+Hey! I'm Shuai Shao. Also Known as ShrekShao / 狄学长. 
+
+I'm a mediocre programmer but still try to overcome my weakness (not effectively for most of the time though -_-).
+I'm now working on graphics as my profession, and keep working towards fullstack in game and web.
+I have quite a lot game and app ideas but only manage to implement one tenths of them. 
+Let me know if you want to join me on my games or if you want me in your indie game team (spare time organization). Connenctions of people create unexpected value. 
+
+* **Programming:** Web 3D, Games, Graphics, Web
+* **Sports:** Soccer, Dortmund
+* **Instruments:** Electric Guitar, Clarinet
+
 * **Current Programming Interest:**
-    * WebGL (raw, WebGL 2, three.js, Related utilites development)
-    * Game (Unity3D, three.js, ActionScript 3)
+    * Web3D
+    * Games (Unity3D, Three.js, ActionScript 3)
     * Graphics
     * Web (backend and frontend)
 * **Sports:**
@@ -37,7 +49,7 @@ The template is from [here](https://github.com/LiXizhi/lixizhi.github.io) on git
 * **Music:**
     * Instruments: Electric Guitar, Clarinet
     * Genres: Rock, Metal
-    * Musician: Buckethead, 汪峰（半壁）, 谭维维, 许巍
+    * Musician: Buckethead, Andy James, 汪峰（半壁）, 谭维维, 许巍
 
 ## Contact
 See the footer of each page!
