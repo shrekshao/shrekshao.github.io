@@ -4,10 +4,10 @@
 /* commom */
 body {
 	background:
-	radial-gradient(#222 15%, transparent 16%) 0 0,
-	radial-gradient(#222 15%, transparent 16%) 8px 8px,
-	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	radial-gradient(#2a2a2a 15%, transparent 16%) 0 0,
+	radial-gradient(#2a2a2a 15%, transparent 16%) 8px 8px,
+	radial-gradient(#373737 15%, transparent 20%) 0 1px,
+	radial-gradient(#373737 15%, transparent 20%) 8px 9px;
 	background-color:#2e2e2e;
 	background-size:16px 16px;
 	/*background-image: url(http://7q5cdt.com1.z0.glb.clouddn.com/bg-canvas_bg.jpg);*/
