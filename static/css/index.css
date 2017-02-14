@@ -3,7 +3,14 @@
  */
 /* commom */
 body {
-	background-image: url(http://7q5cdt.com1.z0.glb.clouddn.com/bg-canvas_bg.jpg);
+	background:
+	radial-gradient(#222 15%, transparent 16%) 0 0,
+	radial-gradient(#222 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#2e2e2e;
+	background-size:16px 16px;
+	/*background-image: url(http://7q5cdt.com1.z0.glb.clouddn.com/bg-canvas_bg.jpg);*/
     /*font-family: 'Microsoft YaHei', 'SimHei', sans-serif;*/
 }
 article p{
@@ -39,11 +46,19 @@ table td{
 	vertical-align: top;
 }
 
+/*code {background-color: #333; }*/
 
-#index a:link {color: #005}		/* 未访问的链接 */
-#index a:visited {color: #669}	/* 已访问的链接 */
-#index a:hover {color: #336;text-decoration: none;}	/* 鼠标移动到链接上 */
-#index a:active {color: #99b}	/* 选定的链接 */
+/*#index a:link {color: #005}
+#index a:visited {color: #669}
+#index a:hover {color: #336;text-decoration: none;}
+#index a:active {color: #99b}*/
+
+#index a:link {color: #ccc}
+#index a:visited {color: #888}
+#index a:hover {color: #bbb;text-decoration: none;}
+#index a:active {color: #bbb}
+
+
 
 /* navbar */
 nav{
@@ -65,23 +80,43 @@ nav{
 }
 .post-area{
 	
-    
-	background-color:#f8f8fd;
+    color: #888;
+	background-color:#222;
+	
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
 	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
 	-o-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
 }
+
+.post-area h1, h2, h3, h4 {color: #aaa;}
+.post-area hr {border-top: 1px solid #888;}
+
+.post-area textarea {color: #444}
+
+.post-area a:link {color: #eee}
+.post-area a:visited {color: #ccc}
+.post-area a:hover {color: #bbb;text-decoration: none;}
+.post-area a:active {color: #bbb}
+
+/*.post-area.post a:link {color: #c00}
+.post-area.post a:visited {color: #c00}
+.post-area.post a:hover {color: #bbb;text-decoration: none;}
+.post-area.post a:active {color: #bbb}*/
+
 .post-list-header{
 	padding: 15px 30px;
-	border-bottom: 1px solid #c0c0c0;
+	border-bottom: 1px solid #888;
+	color: #aaa;
 	font-size: 30px;
 	font-weight: bold;
 }
 .post-list-item{
 	display: block;
 	padding:8px 30px 10px 30px; 
-	border-bottom:1px solid #ddd;
+
+	border-bottom:1px solid #555;
+	/*border-top: 1px solid #c0c0c0;*/
     
     overflow: auto;
 
@@ -100,7 +135,8 @@ nav{
 }
 
 .post-list-item:hover{
-	background-color: rgba(0,0,6,0.05);
+	/*background-color: rgba(0,0,6,0.05);*/
+	background-color: rgba(0,0,0,0.05);
 	
 }
 
@@ -109,14 +145,16 @@ nav{
 .categories-list-header {
 	display: block;
 	padding: 12px 15px;
-	border-bottom: 1px solid #c0c0c0;
+	border-bottom: 1px solid #666;
 	font-size: 16px;
 	font-weight: bold;
 }
 .categories-list-item{
 	display: block;
 	padding:8px 15px; 
-	border-bottom:1px solid #ddd; 
+	border-bottom:1px solid #3f3f3f; 
+
+	color: #aaa;
 
 	transition:0.4s ease;
 	-webkit-transition:0.4s ease;
@@ -151,12 +189,15 @@ nav{
 	transform:rotate(360deg) scale(1.2);
 }
 
+
 /* shadow */
 .shadow-corner-curl{
 	/*overflow: auto;*/
     
 	position: relative;
-	background-color:#f8f8fd; 
+	/*background-color:#f8f8fd; */
+	background-color:#222; 
+	color: #aaa;
 	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
 	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
 	-o-box-shadow: 0 1px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
@@ -177,11 +218,11 @@ nav{
 	box-shadow: 0 8px 20px rgba(0,0,0,0.6);
 
 	/* 向左倾斜12度，再旋转4度 */
-	-webkit-transform:skew(-11deg) rotate(-4deg);
+	/*-webkit-transform:skew(-11deg) rotate(-4deg);
 	-moz-transform:skew(-11deg) rotate(-4deg);
 	-o-transform:skew(-11deg) rotate(-4deg);
 	-ms-transform:skew(-11deg) rotate(-4deg);
-	transform:skew(-11deg) rotate(-4deg);
+	transform:skew(-11deg) rotate(-4deg);*/
 }
 .shadow-corner-curl:after{
 	content:"";
@@ -198,11 +239,11 @@ nav{
 	box-shadow: 0 8px 20px rgba(0,0,0,0.6);
 
 	/* 向左倾斜12度，再旋转4度 */
-	-webkit-transform:skew(11deg) rotate(4deg);
+	/*-webkit-transform:skew(11deg) rotate(4deg);
 	-moz-transform:skew(11deg) rotate(4deg);
 	-o-transform:skew(11deg) rotate(4deg);
 	-ms-transform:skew(11deg) rotate(4deg);
-	transform:skew(11deg) rotate(4deg);
+	transform:skew(11deg) rotate(4deg);*/
 }
 
 /* footer */
@@ -210,7 +251,7 @@ footer{
 	min-height: 50px;
 	line-height: 50px;
 	margin-top: 80px;
-	background: #3f4850;
+	background: #222;
 	color: #aaa;
 	text-align: center;
 
@@ -264,7 +305,7 @@ footer .point{
  */
 blockquote {
     color: #444;
-    border-left: 5px solid #0080ff;
+    border-left: 5px solid #c0c0c0;
     padding-left: 15px;
     font-size: 16px;
     background: rgba(112,138,153,.1);
@@ -408,10 +449,12 @@ blockquote:last-child {
 	padding: 5px 10px 10px 10px;
 	text-indent: 2em;
 }
-#fall a:link {color: #7676AC}		/* 未访问的链接 */
-#fall a:visited {color: #715584}	/* 已访问的链接 */
-#fall a:hover {color: #5989AD;text-decoration: none;}	/* 鼠标移动到链接上 */
-#fall a:active {color: #91C3CF}	/* 选定的链接 */
+
+
+#fall a:link {color: #eee}
+#fall a:visited {color: #ccc}
+#fall a:hover {color: #bbb;text-decoration: none;}
+#fall a:active {color: #bbb}
 
 /**
  * 文章目录相关
@@ -422,10 +465,11 @@ blockquote:last-child {
 	}
 }
 
-#content a:link {color: #666}		/* 未访问的链接 */
-#content a:visited {color: #666}	/* 已访问的链接 */
-#content a:hover {color: #336;text-decoration: none;}	/* 鼠标移动到链接上 */
-#content a:active {color: #99b}	/* 选定的链接 */
+
+#content a:link {color: #eee}
+#content a:visited {color: #ccc}
+#content a:hover {color: #bbb;text-decoration: none;}
+#content a:active {color: #bbb}
 
 #content{
 	max-width: 292px;
@@ -442,7 +486,8 @@ blockquote:last-child {
 	line-height: 25px;
 }
 .shadow-bottom-center{
-	background-color:#f8f8fd; 
+	background-color:#222; 
+	color: #aaa;
 	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
 	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
 	-o-box-shadow: 0 1px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
@@ -461,7 +506,7 @@ blockquote:last-child {
 		line-height: 1.3;
 	}
 	blockquote {
-		border-left: 3px solid #0080ff;
+		border-left: 3px solid #c0c0c0;
     	padding-left: 5px;
     	font-size: 14px;
 	}
@@ -491,9 +536,9 @@ blockquote:last-child {
     overflow: auto;
 
     
-    -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
-    -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
-    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 0 0 3px #666, 0 0 0 4px #777, 0 2px 5px 4px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 0 3px #666, 0 0 0 4px #777, 0 2px 5px 4px rgba(0,0,0,.2);
+    box-shadow: 0 0 0 3px #666, 0 0 0 4px #777, 0 2px 5px 4px rgba(0,0,0,.2);
     
 }
 
