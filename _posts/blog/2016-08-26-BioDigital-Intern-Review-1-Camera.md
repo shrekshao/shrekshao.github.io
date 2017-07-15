@@ -4,7 +4,6 @@ title:  "BioDigital Summer Intern Review 1 - Camera tricks - Cylindrical coordin
 comments: true
 categories: Blog
 tag: WebGL
-img: /assets/blog-img/biodigital/cylindrical-cam-nav.png
 ---
 
 I've literally spent my whole summer vacation at BioDigital for a complete 3-month internship. 

@@ -4,7 +4,6 @@ title:  "BioDigital Summer Intern Review 2 - Camera tricks - Mouse Orbiting issu
 comments: true
 categories: Blog
 tag: WebGL
-img: /assets/blog-img/biodigital/camera-eye-lookat-orbit.png
 ---
 
 Continuing our last blog, we are looking at some other issue of camera in WebGL apps with a display stage style scene. 
