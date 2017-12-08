@@ -14,7 +14,7 @@ A CiGA 2017 Game! Will Issac become an alchemist or a physicist? Will the histor
 
 Happyfuntimes is used agian! with QR code.
 
-My teamates are above awesome this time. We won the first place of most popular award at Shanghai station!
+My teamates are above awesome this time. We finally won the first place of all games at CiGA 2017 Jam! Congrats! A great contribution from my game dev veteran teammates.
 
 <!--more-->
 
@@ -30,3 +30,5 @@ My teamates are above awesome this time. We won the first place of most popular 
 ![](/assets/img/alchemist/screenshot6.png){: .center-image }
 
 ![](/assets/img/alchemist/team.jpg){: .center-image }
+
+![](/assets/img/alchemist/prize.jpg){: .center-image }
