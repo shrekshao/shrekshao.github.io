@@ -17,7 +17,9 @@ permalink: /about/
 -----------------------------
 
 ## This is an illusion, not the reality...
+![](/assets/avatar/DiRock-dark.jpg)
 ![](/assets/avatar/ss-illusion.png)
+
 
 ## About the site
 This is a personal blog by Shuai Shao, powered by jekyll. 
