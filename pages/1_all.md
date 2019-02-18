@@ -6,13 +6,15 @@ permalink: /all/
 ---
 
 
-Hey! I'm Shuai Shao. Also Known as ShrekShao / 狄学长. 
+Hey! I'm Shuai Shao. AKA ShrekShao / 狄学长. 
 
-I'm a mediocre programmer but still try to overcome my weakness (not effectively for most of the time though -_-).
-I'm now working on graphics as my profession, and keep working towards fullstack in game and web.
-I have quite a lot game and app ideas but only manage to implement one tenths of them. 
-Let me know if you want to join me on my games or if you want me in your spare time indie game dev group (, especially if you are a girl -_-). 
-Connections of people create unexpected value. 
+I'm a mediocre programmer. But I still try to make something before I die.
+
+I'm now working as a graphics engineer for my fulltime job (to learn, and to prevent from starving), and keep making progress during sparetime on game dev and some 3d related development.
+
+If daydreaming could work, I hope I could find a girl doing 2D/3D artwork and start a studio as a couple. Like those who made Mount N Blade, Temple Run, etc. (Though very unlikely)
+
+But at least I've got some buddies willing to work together with me at present, they are very reliable, compared to a non trivial number of girls I've contacted with. I should be grateful to my bro.
 
 * **Programming:** Web 3D, Games, Graphics, Web
 * **Sports:** Soccer, Dortmund
