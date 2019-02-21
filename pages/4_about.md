@@ -23,7 +23,7 @@ permalink: /about/
 
 ## About the site
 This is a personal blog by Shuai Shao, powered by jekyll. 
-The template based on from [here](https://github.com/LiXizhi/lixizhi.github.io). 
+The template based on from [here](https://github.com/Gaohaoyang/gaohaoyang.github.io). 
 
 ## About Me
 
