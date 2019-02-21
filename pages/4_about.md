@@ -46,7 +46,7 @@ Besides working on my project, I'm also interested in:
 * **Music:**
     * Instruments: Electric Guitar, Clarinet
     * Genres: Rock, Metal
-    * Musician: Buckethead, Battle Beast, Slash, 汪半壁, 谭维维(when she was still angry...), 许巍, 郑钧, 飘乐队, etc.
+    * Musician: Buckethead, Joe Satriani, Battle Beast, Slash, 汪半壁, 谭维维(when she was still angry...), 许巍, 郑钧, 飘乐队, etc.
     * A Don't Cry (GNR) guitar and vocal cover by me: [Youtube](https://www.youtube.com/watch?v=Na_oZ__IHgI), [Bilibili](https://www.bilibili.com/video/av23653111)
 
 ## Contact
