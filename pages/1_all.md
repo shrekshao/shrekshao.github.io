@@ -14,7 +14,7 @@ I'm now working as a graphics engineer for my fulltime job (to learn, and to pre
 
 If daydreaming could work, I hope I could find a girl doing 2D/3D artwork and start a studio as a couple. Like those who made Mount N Blade, Temple Run, etc. (Though very unlikely)
 
-But at least I've got some buddies willing to work together with me at present, they are very reliable, compared to a non trivial number of girls I've contacted with. I should be grateful to my bro.
+But at least I've got some buddies willing to work together with me at present, they are very promising. I should be grateful to them.
 
 * **Programming:** Web 3D, Games, Graphics, Web
 * **Sports:** Soccer, Dortmund
