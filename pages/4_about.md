@@ -11,7 +11,7 @@ permalink: /about/
 ![](/assets/avatar/Di-new-avatar.png){: .avatar_s100 }
 ![](/assets/avatar/shrekshao.png){: .avatar_s100 }
 ![](/assets/avatar/di-3d.png){: .avatar_s100 }
-![](/assets/avatar/dscxy.jpg){: .avatar_s100 }
+![](/assets/avatar/DiRock-rect-profile.png){: .avatar_s100 }
 ![](/assets/avatar/rock.jpg){: .avatar_s100 }
 
 -----------------------------
